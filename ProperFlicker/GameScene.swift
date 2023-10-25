@@ -32,13 +32,11 @@ class GameScene: SKScene {
     }
     
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
     }
     
     func prepareAndRenderFrames(_ baseColor: UIColor) {
         self.scene?.backgroundColor = baseColor
-        
-//        setFlickeringColours(from: baseColor)
+
         textureArray.removeAll()
         stopFlickering()
         
@@ -56,15 +54,6 @@ class GameScene: SKScene {
         self.removeAllChildren()
         self.addChild(frame1)
     }
-    
-//    func setFlickeringColours(from baseColor: UIColor) {
-//        (color1, color2) = ColoursCalculator.calculateFlickeringColors(from: baseColor)
-//        
-//        if viewController?.shouldFlicker.isEnabled == false {
-//            viewController?.shouldFlicker.isEnabled = true
-//        }
-//    }
-//    
     
     func startFlickering() {
         frame1.run(SKAction.repeatForever(SKAction.animate(with: textureArray, timePerFrame: 1/60)), withKey: "flickering")
