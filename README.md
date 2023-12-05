@@ -19,7 +19,7 @@ To build and run this app, it is necessary to have [xCode](https://apps.apple.co
 
 ---
 
-4. Install iOS Simulator runtime (as the described [here](https://developer.apple.com/documentation/xcode/installing-additional-simulator-runtimes)):
+4. Install iOS Simulator runtime (as described [here](https://developer.apple.com/documentation/xcode/installing-additional-simulator-runtimes)):
 
    > Choose Xcode > Settings > Platforms to see a list of Simulator runtimes that are currently installed and available to download. Xcode shows the amount of storage you can recover if you remove an installed Simulator runtime, and displays Built-In for a Simulator runtime that Xcode requires.
 
