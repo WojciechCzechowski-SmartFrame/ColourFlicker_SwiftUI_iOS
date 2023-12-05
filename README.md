@@ -1,3 +1,8 @@
+# What is this about?
+This repository contains sources of a program demonstrating issues of non-uniform frame pacing, through colour flickering.
+
+---
+
 # Build instructions
 
 To build and run this app, it is necessary to have [xCode](https://apps.apple.com/us/app/xcode/id497799835) installed, so before proceeding to "actual" building steps, make sure you have it :]
